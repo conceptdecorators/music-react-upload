@@ -43,7 +43,9 @@ const Upload = () => {
     REACT_APP_CLOUDINARY_CLOUD_NAME,
     REACT_APP_CLOUDINARY_UPLOAD_SECRET,
   } = process.env;
-  console.log(date);
+
+  // console.log(date);
+
   // event handler
   const handleChange = (name) => (event) => {
     setValues({ ...values, [name]: event.target.value });
