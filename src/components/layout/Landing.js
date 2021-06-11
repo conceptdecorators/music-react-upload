@@ -68,11 +68,7 @@ const Landing = () => {
             </h2>
 
             <div class="ld-fancy-heading mask-text col-lg-5">
-              <p
-                class="text-white font-size-21"
-                data-split-text="true"
-                data-split-options='{ "type": "words" }'
-              >
+              <p class="text-white font-size-21">
                 <span>
                   Zilah Music Publishing is a licensing & publishing company. We
                   represent the works of composers, music producers, indie
@@ -121,11 +117,7 @@ const Landing = () => {
         <div class="main_container black-text">
           <div class="main_content mobile-margin">
             <div class="ld-fancy-heading mask-text col-lg-5">
-              <p
-                class="text-white font-size-21 black-text"
-                data-split-text="true"
-                data-split-options='{ "type": "words" }'
-              >
+              <p class="text-white font-size-21 black-text">
                 <span
                   class="ld-fh-txt"
                   style={{

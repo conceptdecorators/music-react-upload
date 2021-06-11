@@ -13,8 +13,8 @@ const About = () => {
             <div class="ld-fancy-heading mask-text col-lg-5">
               <p
                 class="text-white font-size-21"
-                data-split-text="true"
-                data-split-options='{ "type": "words" }'
+                // data-split-text="true"
+                // data-split-options='{ "type": "words" }'
               >
                 <span
                   class="ld-fh-txt"

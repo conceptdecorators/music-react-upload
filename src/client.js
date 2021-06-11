@@ -1,5 +1,5 @@
 import * as contentful from "contentful";
-console.log(process.env.SENDGRID_API_KEY);
+// console.log(process.env.SENDGRID_API_KEY);
 
 export const client = contentful.createClient({
   space: process.env.REACT_APP_SPACE_ID,

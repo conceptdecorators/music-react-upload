@@ -57,6 +57,9 @@ const Upload = () => {
     // send to backend for email
     console.table({
       name,
+      artist,
+      songTitle,
+      label,
       email,
       phone,
       message,
