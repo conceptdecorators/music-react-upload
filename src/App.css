@@ -2139,7 +2139,7 @@ input[type="checkbox"] {
     padding: 10px 0;
   }
   #text {
-    font-size: 30px;
+    font-size: 25px;
   }
   .music-push__content {
     color: #fff;
@@ -2190,6 +2190,9 @@ input[type="checkbox"] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .blog__page {
+    padding: 30px 0px;
   }
 }
 

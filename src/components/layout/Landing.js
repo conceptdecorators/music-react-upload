@@ -156,7 +156,7 @@ const Landing = () => {
           <div class="box-2">
             <p class="promo-seller_content_title">
               <Link
-                to="/upload"
+                href="/upload/#upload-music"
                 class="btn-txt round btn btn-light btn-bordered"
               >
                 Submit Music

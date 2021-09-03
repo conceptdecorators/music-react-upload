@@ -49,7 +49,7 @@ const Sync = () => {
         </p>
       </div>
       <div class="service-container pt-pb-160">
-        <p class="text-white medium-text services-social">
+        <p class="text-white medium-text services-social" id="text">
           {" "}
           For artists, bands, composers, songwriters and labels{" "}
         </p>
@@ -66,15 +66,17 @@ const Sync = () => {
         <p class="text-white medium-text pt-90">
           {" "}
           <FaSpotify />
-          <span class="services-social">Spotify</span> <SiDeezer />
-          <span
-            class="services-social
-            "
-          >
-            Deezer
-          </span>{" "}
+          <a href={"https://www.spotify.com/us/"}>
+            <span class="services-social">Spotify</span>
+          </a>
+          <SiDeezer />
+          <a href={"https://www.deezer.com/en/"}>
+            <span class="services-social">Deezer</span>
+          </a>
           <FaMixcloud />
-          <span class="services-social">Mixcloud</span>{" "}
+          <a href={"https://www.mixcloud.com/"}>
+            <span class="services-social">Mixcloud</span>
+          </a>
         </p>
       </div>
     </React.Fragment>

@@ -129,6 +129,6 @@ main .wrapper-blog {
 }
 @media screen and (max-width: 767px) {
   .blog__page {
-    padding: 30px 40px;
+    padding: 30px 0px;
   }
 }
