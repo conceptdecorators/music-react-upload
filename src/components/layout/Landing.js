@@ -47,11 +47,19 @@ const Landing = () => {
       <div class="main">
         <div class="main_container black-text">
           <div class="main_content">
-            <h2 id="text">THE FUTURE OF </h2>
+            <h2
+              id="text"
+              style={{
+                fontFamily: "Gotham",
+              }}
+            >
+              THE FUTURE OF{" "}
+            </h2>
             <h2 id="text">
               <span
                 style={{
                   display: "inline-block",
+                  fontFamily: "Gotham",
                 }}
               >
                 {/* Style will be inherited from the parent element */}
@@ -195,12 +203,24 @@ const Landing = () => {
             </div>
 
             <div class="main_content pt-160 mobile-margin">
-              <h2 id="text">
+              <h2
+                id="text"
+                style={{
+                  fontFamily: "Gotham",
+                }}
+              >
                 Amplify your sound
                 <br />
                 Get featured
               </h2>
-              <h3 class="small-text">The eastiest way to music distribution</h3>
+              <h3
+                class="small-text"
+                style={{
+                  fontFamily: "Gotham",
+                }}
+              >
+                The eastiest way to music distribution
+              </h3>
             </div>
 
             <div class="div-block-25 pt-pb-160">
@@ -260,7 +280,12 @@ const Landing = () => {
             </h2>
 
             <div class="main_content pt-160 mobile-margin">
-              <h2 id="text">
+              <h2
+                id="text"
+                style={{
+                  fontFamily: "Gotham",
+                }}
+              >
                 Grow your fans
                 <br />
                 Grow your royalties

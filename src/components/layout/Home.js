@@ -174,12 +174,24 @@ around the world --> */}
             </div>
 
             <div class="main_content pt-160 mobile-margin">
-              <h2 id="text">
+              <h2
+                id="text"
+                style={{
+                  fontFamily: "Gotham",
+                }}
+              >
                 Amplify your sound
                 <br />
                 Get featured
               </h2>
-              <h3 class="small-text">The eastiest way to music distribution</h3>
+              <h3
+                class="small-text"
+                style={{
+                  fontFamily: "Gotham",
+                }}
+              >
+                The eastiest way to music distribution
+              </h3>
             </div>
 
             <div class="div-block-25 pt-pb-160">

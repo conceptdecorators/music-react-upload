@@ -47,6 +47,7 @@ const About = () => {
             class="text-white"
             style={{
               fontweight: "800",
+              fontFamily: "Gotham",
             }}
           >
             MISSION
