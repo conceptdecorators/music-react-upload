@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("./src/fonts/GothamBlack.woff2") format("woff2"),
+    url("./src/fonts/GothamBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./src/fonts/Gotham-Thin.woff2") format("woff2"),
+    url("./src/fonts/Gotham-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 .container-nav {
   width: 100%;
   padding-right: 15px;
