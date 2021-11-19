@@ -2110,6 +2110,11 @@ input[type="checkbox"] {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 3000px) {
+  #text {
+    font-family: "Gotham";
+  }
+}
 @media screen and (max-width: 540px) {
   .cards {
     max-width: 300px;
