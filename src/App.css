@@ -1008,7 +1008,7 @@ h2 span:first-child {
   font-size: 53px;
   line-height: 1.4;
   letter-spacing: 0;
-  font-family: "Gotham";
+  font-family: "Gotham" !important;
   /* color: #060221; */
   text-transform: uppercase;
   font-weight: 800;
@@ -2112,7 +2112,7 @@ input[type="checkbox"] {
 }
 @media screen and (max-width: 3000px) {
   #text {
-    font-family: "Gotham";
+    font-family: "Gotham" !important;
   }
 }
 @media screen and (max-width: 540px) {
