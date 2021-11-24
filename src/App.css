@@ -1008,7 +1008,7 @@ h2 span:first-child {
   font-size: 53px;
   line-height: 1.4;
   letter-spacing: 0;
-  font-family: "Gotham" !important;
+  font-family: "Gotham", "Helvetica" !important;
   /* color: #060221; */
   text-transform: uppercase;
   font-weight: 800;
@@ -2102,7 +2102,7 @@ input[type="checkbox"] {
     font-size: 51px;
     line-height: 1.4;
     letter-spacing: 0;
-    font-family: "Gotham", "sans-serif";
+    font-family: "Gotham", "Helvetica";
     color: #060221;
     text-transform: uppercase;
   }
