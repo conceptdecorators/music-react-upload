@@ -199,14 +199,14 @@ const Navbar = () => {
                   </NavLink>{" "}
                 </li>
                 <li className="menu-item ">
-                  <NavLink
+                  <a
                     onClick={toggleClass}
                     activeClassName="is-active"
-                    to={`https://zilah-music-community.circle.so/home`}
+                    href={`https://zilah-music-community.circle.so/home`}
                   >
                     {" "}
                     Community{" "}
-                  </NavLink>{" "}
+                  </a>{" "}
                 </li>
               </ul>
             </nav>
