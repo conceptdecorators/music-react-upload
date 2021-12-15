@@ -198,6 +198,16 @@ const Navbar = () => {
                     Blog{" "}
                   </NavLink>{" "}
                 </li>
+                <li className="menu-item ">
+                  <NavLink
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    to={`https://zilah-music-community.circle.so/home`}
+                  >
+                    {" "}
+                    Community{" "}
+                  </NavLink>{" "}
+                </li>
               </ul>
             </nav>
           </div>

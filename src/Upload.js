@@ -150,16 +150,6 @@ const Upload = () => {
 
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label className="text-warning">Description</label>
-          <textarea
-            onChange={handleChange("message")}
-            type="text"
-            className="form-control"
-            value={message}
-            required
-          ></textarea>
-        </div>
-        <div className="form-group">
           <label className="text-warning">Your Name</label>
           <input
             className="form-control"
@@ -312,6 +302,18 @@ const Upload = () => {
             onChange={(date) => setSelectedDate(date)}
           />
         </div>
+        <br />
+        <div className="form-group">
+          <label className="text-warning">Description</label>
+          <textarea
+            onChange={handleChange("message")}
+            type="text"
+            className="form-control"
+            value={message}
+            required
+          ></textarea>
+        </div>
+
         <br />
         <button className="btn btn-outline-primary btn-block">
           {buttonText}
