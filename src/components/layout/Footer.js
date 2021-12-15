@@ -38,9 +38,6 @@ const Footer = () => {
             <div className="footer_link-items">
               <h2 className="footer-heading">Videos</h2>
               <a href="/upload">Submit Music</a>
-              <a href="/">Ambassadors</a>
-              <a href="/">Agency</a>
-              <a href="/">Influencer</a>
             </div>
             <div className="footer_link-items">
               <h2 className="footer-heading">Social media</h2>
