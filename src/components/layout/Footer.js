@@ -30,8 +30,6 @@ const Footer = () => {
               <h2 className="footer-heading">Contact Us</h2>
               <a href="/">Contact</a>
               <a href="/faq">Faq</a>
-              <a href="/">Destination</a>
-              <a href="/">Sponsorship</a>
             </div>
           </div>
           <div className="footer_link-wrapper">
