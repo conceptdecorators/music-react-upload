@@ -2103,7 +2103,7 @@ input[type="checkbox"] {
   }
 
   #text {
-    font-size: 51px;
+    font-size: 47px;
     line-height: 1.4;
     letter-spacing: 0;
     font-family: "Gotham", "Helvetica";
@@ -2121,7 +2121,7 @@ input[type="checkbox"] {
 }
 @media screen and (max-width: 540px) {
   .cards {
-    max-width: 300px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: repeat(1, minmax(180px, 1fr));
     gap: 20px;
@@ -2149,7 +2149,7 @@ input[type="checkbox"] {
     width: 100%;
   }
   .Artists_tag__gNcQp {
-    font-size: 11px;
+    font-size: 20px;
   }
   .div-block-25 {
     max-width: 50px;
@@ -2220,6 +2220,14 @@ input[type="checkbox"] {
   }
   .blog__page {
     padding: 30px 0px;
+  }
+  .card__content h1 {
+    font-size: 1.2rem;
+  }
+  .image-34 {
+    width: 85px;
+    padding-bottom: 24px;
+    opacity: 1;
   }
 }
 
