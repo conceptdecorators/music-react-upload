@@ -2111,7 +2111,7 @@ input[type="checkbox"] {
     text-transform: uppercase;
   }
   .small-text {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 3000px) {
@@ -2228,6 +2228,9 @@ input[type="checkbox"] {
     width: 85px;
     padding-bottom: 24px;
     opacity: 1;
+  }
+  .mobile-margin {
+    margin: 0px;
   }
 }
 

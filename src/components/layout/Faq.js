@@ -9,9 +9,7 @@ const Faq = () => {
       <div className="main">
         <div className="container">
           <div className="sk-faq--light pt-pb-160">
-            <h3 className="text-white medium-text services-social pt-90">
-              Questions
-            </h3>
+            <h3 className="sk-faq__header">Questions</h3>
             <div className="wrapper">
               {/* <!-- Accordion Heading One --> */}
               <div className="parent-tab">
