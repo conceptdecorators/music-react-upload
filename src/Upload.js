@@ -55,19 +55,19 @@ const Upload = () => {
     event.preventDefault();
     setValues({ ...values, buttonText: "...sending" });
     // send to backend for email
-    console.table({
-      name,
-      artist,
-      songTitle,
-      label,
-      email,
-      phone,
-      message,
-      uploadedFiles,
-      genre,
-      date,
-      label,
-    });
+    // console.table({
+    //   name,
+    //   artist,
+    //   songTitle,
+    //   label,
+    //   email,
+    //   phone,
+    //   message,
+    //   uploadedFiles,
+    //   genre,
+    //   date,
+    //   label,
+    // });
     axios({
       method: "POST",
       url: `${REACT_APP_API}/feedback`,
@@ -104,6 +104,7 @@ const Upload = () => {
         });
       })
       .catch((error) => {
+        console.log(error);
         // console.log('feedback submit error', error.response);
         if (error.response.data.error) toast.error("Failed! Try again!");
       });
