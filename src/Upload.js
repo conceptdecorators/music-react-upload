@@ -54,6 +54,7 @@ const Upload = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     setValues({ ...values, buttonText: "...sending" });
+    console.log(REACT_APP_API)
     // send to backend for email
     // console.table({
     //   name,
@@ -85,6 +86,7 @@ const Upload = () => {
       },
     })
       .then((response) => {
+        console.log(response)
         // console.log('feedback submit response', response);
         if (response.data.success) toast.success("Thanks for your feedback");
         setValues({
